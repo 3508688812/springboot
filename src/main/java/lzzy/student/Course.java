@@ -1,4 +1,4 @@
-package lz.zy.student;
+package lzzy.student;
 
 public class Course {
     private int courseId;

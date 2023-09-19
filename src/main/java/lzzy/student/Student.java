@@ -1,4 +1,4 @@
-package lz.zy.student;
+package lzzy.student;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

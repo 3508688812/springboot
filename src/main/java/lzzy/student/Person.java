@@ -1,4 +1,4 @@
-package lz.zy.student;
+package lzzy.student;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -6,11 +6,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class Person {
 
-    @Value("${student.id}")
+    //@Value("${student.id}")
     private int id;//学号
-    @Value("${student.name}")
+   // @Value("${student.name}")
     private String name; //名字
-    @Value("${student.age}")
+    //@Value("${student.age}")
     private int age;//年龄
 
     @Override

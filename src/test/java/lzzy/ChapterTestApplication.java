@@ -1,10 +1,10 @@
-package lz.zy;
+package lzzy;
 
 
-import lz.zy.example.ChapterController;
-import lz.zy.student.Person;
-import lz.zy.student.Student;
-import lz.zy.student.User;
+import lzzy.example.ChapterController;
+import lzzy.student.Person;
+import lzzy.student.Student;
+import lzzy.student.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,11 +28,11 @@ public class ChapterTestApplication {
     @Autowired
     private User user;
 
-    @Value("${student.id}")
+   // @Value("${student.id}")
     private int id;//学号
-    @Value("${student.name}")
+   // @Value("${student.name}")
     private String name; //名字
-    @Value("${student.age}")
+    //@Value("${student.age}")
     private int age;//年龄
     @Autowired
     private Person person;
